@@ -378,3 +378,23 @@ h1, h2 {
     line-height: 1.6;
     margin: 1rem 0 0 0;
 }
+
+.sobre-mi-contenedor .contenido {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.texto {
+    flex: 1;
+    min-width: 250px;
+}
+
+.dibujito {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border: 3px solid #35C8B4;
+    border-radius: 8px;
+}
