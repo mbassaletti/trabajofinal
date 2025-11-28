@@ -2,9 +2,11 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SB Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Didact+Gothic&display=swap" rel="stylesheet">
 </head>
@@ -26,11 +28,11 @@
 </header>
 
 <main class="page-content">
-    <section class="hero" id="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Sofía Bassaletti</h1>
-            <h2 class="hero-subtitle">Portafolio de Diseño</h2>
-            <p class="hero-description">Diseño — Creatividad, Identidad & Visuales</p>
+    <section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Sofía Bassaletti</h1>
+        <h2 class="hero-subtitle">Portafolio de Diseño</h2>
+        <p class="hero-description">Diseño — Creatividad, Identidad & Visuales</p>
         </div>
     </section>
 
@@ -41,17 +43,28 @@
 
     <section id="proyectos">
         <h2>Proyectos</h2>
-        <p>Aquí van tus trabajos...</p>
+        <div id="porotito" class="row"></div>
     </section>
+
+        
 </main>
 
 <footer class="footer" id="footer">
     <ul>
-        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-        <li><a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a></li>
-        <li><a href="tel:+56912345678">+56 9 1234 5678</a></li>
+        <li><a href="https://www.linkedin.com/in/sof%C3%ADa-bassaletti-quiroz-8139252a5/" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:sofibassaletti@yahoo.com">sofibassaletti@yahoo.com</a></li>
+        <li><a href="tel:+56968335223">+56 9 6833 5223</a></li>
     </ul>
 </footer>
+
+<div id="modalito">
+    <div class="modal-contenido">
+        <span id="cerrar">&times;</span>
+        <img id="modal-img" src="">
+        <p id="modal-desc"></p>
+    </div>
+</div>
+
 
 </body>
 </html>

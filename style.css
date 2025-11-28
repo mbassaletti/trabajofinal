@@ -4,7 +4,7 @@ html, body {
     width: 100%;
     overflow-x: hidden;
     font-family: 'Didact Gothic', sans-serif;
-    background-color: #FFF8B0;
+    background-color: #C2F2E4;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
     justify-content: center;
     padding: 1rem 2rem;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #35C8B4;
 }
 
 .header-content {
@@ -38,7 +38,7 @@ body {
     font-family: 'Prosto One', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
-    color: #000;
+    color: #EDF7BE;
 }
 
 .top-nav ul {
@@ -51,7 +51,7 @@ body {
 
 .top-nav a {
     text-decoration: none;
-    color: #000;
+    color: #EDF7BE;
     font-weight: 600;
     font-size: 1rem;
     font-family: 'Didact Gothic', sans-serif;
@@ -87,7 +87,7 @@ body {
 .hero-title {
     font-size: 3rem;
     font-weight: 700;
-    color: #000;
+    color: #A4CF4A;
     font-family: 'Prosto One', sans-serif;
 }
 
@@ -96,22 +96,22 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #39FF14;
+    color: #35C8B4;
     font-family: 'Prosto One', sans-serif;
 }
 
 .hero-description {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #555;
+    color: #1E6158;
     font-family: 'Didact Gothic', sans-serif;
 }
 
 .footer {
     width: 100%;
-    background-color: #39FF14;
+    background-color: #A4CF4A;
     padding: 1.5rem 2rem;
-    border-top: 3px solid #222;
+    border-top: 3px solid #EDF7BE;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,7 +121,7 @@ body {
 .footer-left {
     font-family: 'Prosto One', sans-serif;
     font-weight: 700;
-    color: #000;
+    color: #EDF7BE;
     font-size: 1.2rem;
 }
 
@@ -135,7 +135,7 @@ body {
 
 .footer a {
     text-decoration: none;
-    color: #000;
+    color: #EDF7BE;
     font-weight: 500;
     font-size: 1rem;
     font-family: 'Didact Gothic', sans-serif;
@@ -153,16 +153,61 @@ html {
 
 p, li {
     font-family: 'Didact Gothic', sans-serif;
+    color: #1E6158;
 }
 
 h1, h2 {
     font-family: 'Prosto One', sans-serif;
+    color: #1E6158;
 }
 
 .logo {
     text-decoration: none;
-    color: #000;
+    color: #EDF7BE;
     font-weight: 700;
     font-family: 'Prosto One', sans-serif;
     font-size: 1.2rem;
+}
+
+#modalito {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+    backdrop-filter: blur(3px);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-contenido {
+    background: rgba(53,200,180,0.9);
+    padding: 1.5rem;
+    border-radius: 12px;
+    max-width: 90%;
+    width: 480px;
+    text-align: center;
+    position: relative;
+}
+
+#modal-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+#modal-desc {
+    font-size: 1.2rem;
+    font-family: "Didact Gothic", sans-serif;
+    color: #1E6158;
+}
+
+#cerrar {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 2rem;
+    cursor: pointer;
+    line-height: 1;
+    color: #1E6158;
 }
